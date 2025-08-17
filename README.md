@@ -2,10 +2,10 @@
 ## Dataset
 [Link to dataset](https://www.kaggle.com/datasets/daveianhickey/2000-16-traffic-flow-england-scotland-wales?resource=download&select=accidents_2005_to_2007.cs)!
 ## Environment setup requirements (2 points) 
-
+Download the dataset above and extract it into the project folder. All the dataset files should automatically be in a folder name "archive", either copy or move that folder in the project folder.
 ## Data Exploration (4 points)
 
-1. How many observations does your dataset have?
+1. How many observations does your dataset have? <br>
     We have 33 Observations which we split into 32 Features and 1 Targeting Class.
 2. Describe all columns in your dataset their scales and data distributions. Describe the categorical and continuous variables in your dataset. Describe your target column and if you are using images plot some example classes of the images.
 
@@ -51,7 +51,7 @@
 | **Accident_Severity**                  | Describes the severity level of the accident                                                                 | Categorical: 1 = Fatal, 2 = Serious, 3 = Slight                                                    |
 
 3. Do you have missing and duplicate values in your dataset?
-    Note: For image data you can still describe your data by the number of classes, size of images, are sizes uniform? Do they need to be cropped? normalized? etc.
+    Note: For image data you can still describe your data by the number of classes, size of images, are sizes uniform? Do they need to be cropped? normalized? etc. <br>
     We do have missing values that we plan to preprocess and we have a single duplicated row.
 ## Data Plots (4 points)
 
