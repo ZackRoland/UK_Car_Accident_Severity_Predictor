@@ -105,5 +105,5 @@ in predicting accident severity.
 3. Next we do a deep dive into each of our remaining variables and see if they (1) have NaN values and (2) are in an undesirable format
 4. If NaN values are present, we have to figure out what these NaN values mean in the context of our data. If the NaN indicates a missing value, then we have to find what is    represented by it and encode that. For example, 'Junction_Control' had over 40% of its value. If the quantity of the NaN in relation to the amount of total data present      is sufficently small enough then we can just drop all rows that contain NaN values for that feature. An example of thisis our 'Pedestrian_Crossing-Human_Control' column      which we found to have 17 NaN values.
 5. Since our 'Time' column was in an undesireable format (Hour:Minute) we split the values just to represent the hour to make it easier for whatever categorial analysis we decide to do with that
-6. For future steps we will normalize our data if we find that it is necessary for the model we decide we train.
+6. For future steps we will normalize our data if we find that it is necessary for the model we decide we train. Also we need to go through our correlation matrix in depth and see what we need to drop if the features are essentially duplicates and provide no meaningful info
    
