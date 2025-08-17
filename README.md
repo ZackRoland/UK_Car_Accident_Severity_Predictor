@@ -58,7 +58,7 @@ Download the dataset above and extract it into the project folder. All the datas
 1. Plot your data with various types of charts like bar charts, pie charts, scatter plots etc. and clearly explain the plots.
     For image data, you will need to plot your example classes.
 
-
+Correlation Matrix of Accident Data: Some interesting things to notice just from a quick inital glance is that most of the boxes on the matrix are grey in the sense that most things have very little correlation with each other. The factors that most influence Accident Severity which is what were most interested in are;Number of Casualties, Speed Limit, Urban or Rural Area, Junction Control, Daylight and Police Presence. Seems the features with the most solid coloring like Junction_Control_No_Junction and Junction_Control_Uncontrolled could be very similar and possibly duplicate which makes sense just off the name alone so one of those could be dropped.
 <img width="1746" height="1542" alt="Untitled" src="https://github.com/user-attachments/assets/23b388ba-20e2-431e-837d-e1e37aeb1c3d" />
 
 Accident Severity By Junction Type: This graph is separated by Junction control type and each bar is separated by Accident Severity. Looking at the graph we can see that the most accidents had an accident severity of 3 at a Giveaway/uncontrolled junction. We can also see that when there is an authorized personal present there was the least amount of accidents. We can also conclude that the least frequently occurring severity type is 1. 
