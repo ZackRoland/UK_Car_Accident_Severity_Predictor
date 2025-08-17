@@ -6,6 +6,7 @@
 ## Data Exploration (4 points)
 
 1. How many observations does your dataset have?
+    We have 33 Observations which we split into 32 Features and 1 Targeting Class.
 2. Describe all columns in your dataset their scales and data distributions. Describe the categorical and continuous variables in your dataset. Describe your target column and if you are using images plot some example classes of the images.
 
 | **Feature**                            | **Short Description**                                                                                     | **Variable**                                                                                      |
@@ -51,7 +52,7 @@
 
 3. Do you have missing and duplicate values in your dataset?
     Note: For image data you can still describe your data by the number of classes, size of images, are sizes uniform? Do they need to be cropped? normalized? etc.
-
+    We do have missing values that we plan to preprocess and we have a single duplicated row.
 ## Data Plots (4 points)
 
 1. Plot your data with various types of charts like bar charts, pie charts, scatter plots etc. and clearly explain the plots.
