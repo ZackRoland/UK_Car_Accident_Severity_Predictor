@@ -58,6 +58,9 @@ Download the dataset above and extract it into the project folder. All the datas
 1. Plot your data with various types of charts like bar charts, pie charts, scatter plots etc. and clearly explain the plots.
     For image data, you will need to plot your example classes.
 
+
+<img width="926" height="620" alt="image" src="https://github.com/user-attachments/assets/a3b68eba-5c25-4ec6-9679-b689ead1e82e" />
+
 Accident Severity By Junction Type: This graph is separated by Junction control type and each bar is separated by Accident Severity. Looking at the graph we can see that the most accidents had an accident severity of 3 at a Giveaway/uncontrolled junction. We can also see that when there is an authorized personal present there was the least amount of accidents. We can also conclude that the least frequently occurring severity type is 1. 
 
 <img width="629" height="468" alt="image" src="https://github.com/user-attachments/assets/eafa35de-56f1-4db5-b3ad-78a6dad18344" />
