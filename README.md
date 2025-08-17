@@ -60,4 +60,14 @@ Download the dataset above and extract it into the project folder. All the datas
 
 ## Data preprocessing
 
-1. How will you preprocess your data? Handle data imbalance if needed. You should only explain (do not perform pre-processing as that is in MS3) this in your README.md file and link your Jupyter notebook to it. All code and  Jupyter notebooks have be uploaded to your repo. (3 points)
+Q: How will you preprocess your data? Handle data imbalance if needed. You should only explain (do not perform pre-processing as that is in MS3) this in your README.md file and link your Jupyter notebook to it. All code and  Jupyter notebooks have be uploaded to your repo. (3 points)
+1. First step of preprocessing our data is to go through each column and do an inital filtering out of any columns
+   that seem unappealing for modeling based our feature and variable descriptions.
+   - This step got rid of columns such as 'Accident_Index','Location_Easting_OSGR', 'Location_Northing_OSGR','Date','LSOA_of_Accident_Location', 'Local_Authority_(District)','Local_Authority_(Highway)', '1st_Road_Number','Longitude','Latitude', '1st_Road_Class', 'Road_Type',
+    'Police_Force','Junction_Detail','2nd_Road_Class', and '2nd_Road_Number' which are largely unique categorical variables that would provide little to no value
+in predicting accident severity.                           
+3. Next we do a deep dive into each of our remaining variables and see if they (1) have NaN values and (2) are in an undesirable format
+4. If NaN values are present, we have to figure out what these NaN values mean in the context of our data. If the NaN indicates a missing value, then we have to find what is    represented by it and encode that. For example, 'Junction_Control' had over 40% of its value. If the quantity of the NaN in relation to the amount of total data present      is sufficently small enough then we can just drop all rows that contain NaN values for that feature. An example of thisis our 'Pedestrian_Crossing-Human_Control' column      which we found to have 17 NaN values.
+5. Since our 'Time' column was in an undesireable format (Hour:Minute) we split the values just to represent the hour to make it easier for whatever categorial analysis we decide to do with that
+6. For future steps we will normalize our data if we find that it is necessary for the model we decide we train.
+   
