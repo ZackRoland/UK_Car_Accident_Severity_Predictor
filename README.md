@@ -59,7 +59,7 @@ Download the dataset above and extract it into the project folder. All the datas
     For image data, you will need to plot your example classes.
 
 
-<img width="926" height="620" alt="image" src="https://github.com/user-attachments/assets/a3b68eba-5c25-4ec6-9679-b689ead1e82e" />
+<img width="1746" height="1542" alt="Untitled" src="https://github.com/user-attachments/assets/23b388ba-20e2-431e-837d-e1e37aeb1c3d" />
 
 Accident Severity By Junction Type: This graph is separated by Junction control type and each bar is separated by Accident Severity. Looking at the graph we can see that the most accidents had an accident severity of 3 at a Giveaway/uncontrolled junction. We can also see that when there is an authorized personal present there was the least amount of accidents. We can also conclude that the least frequently occurring severity type is 1. 
 
