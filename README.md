@@ -58,13 +58,16 @@ Download the dataset above and extract it into the project folder. All the datas
 1. Plot your data with various types of charts like bar charts, pie charts, scatter plots etc. and clearly explain the plots.
     For image data, you will need to plot your example classes.
 
-   Accident Severity By Junction Type: This graph is separated by Junction control type and each bar is separated by Accident Severity. Looking at the graph we can see that the most accidents had an accident severity of 3 at a Giveaway/uncontrolled junction. We can also see that when there is an authorized personal present there was the least amount of accidents. We can also conclude that the least frequently occurring severity type is 1. 
+Accident Severity By Junction Type: This graph is separated by Junction control type and each bar is separated by Accident Severity. Looking at the graph we can see that the most accidents had an accident severity of 3 at a Giveaway/uncontrolled junction. We can also see that when there is an authorized personal present there was the least amount of accidents. We can also conclude that the least frequently occurring severity type is 1. 
+
 <img width="629" height="468" alt="image" src="https://github.com/user-attachments/assets/eafa35de-56f1-4db5-b3ad-78a6dad18344" />
 
 Numeric Columns only heatmap: Since we are trying to predict Accident Severity we can see that out of most of the Numeric columns the one that is going to be the most helpful is number of vehicles because out of all the other columns excluding Accident Severity itself it has the highest coefficient. Something else that is also interesting is that Urban_or_Rural_Area is closely correlated to Speed Limit. 
+
 <img width="673" height="555" alt="image" src="https://github.com/user-attachments/assets/c0663964-5e58-46ca-ab54-005c785388d2" />
 
 Accident Severity Histogram: Looking at the graph we can see that a class 3 Accident Severity is the most frequently occurring followed by Class 2 and 1 with class 3 being more than the sum of class 1 and 2. 
+
 <img width="583" height="427" alt="image" src="https://github.com/user-attachments/assets/e5c67024-ee23-4054-98de-7422a1f7885c" />
 
 Number_of_Vehicles vs. Number_of_Casualities: Looking at this graph we can see that we have a lot of outliers and most of our data is 5000 or below. However the most interesting part is that the majority of accidents happen when there are 2 or less vehicles involved with only 2 or less people dying.
@@ -76,12 +79,15 @@ Accident Severity by Light Conditions: We can first notice that most accidents h
 <img width="625" height="467" alt="image" src="https://github.com/user-attachments/assets/ca22bc40-4efd-482b-9d36-1a734396217c" />
 
 Longitude Vs. Latitude: As expected the output for this graph does look like the UK which confirms that are dataset is indeed real. 
+
 <img width="537" height="401" alt="image" src="https://github.com/user-attachments/assets/5d34751e-98da-4ae9-8e39-f031443b2099" />
 
 Weather Conditions Bar: The most amount of accidents happened when there was little to no wind only to be followed by rain present. We can also conclude that when the weather conditions get severer the number of accidents tends to decline. 
+
 <img width="904" height="574" alt="image" src="https://github.com/user-attachments/assets/3eb3b24d-0284-48f0-a23f-1e080b622973" />
 
 Road Conditions Bar: The most amount of accidents happen when the road is dry only to be followed by wet/damp roads. We can also see that the amount of dry accidents exceeds the amount of the sum of all other conditions. 
+
 <img width="926" height="620" alt="image" src="https://github.com/user-attachments/assets/47f4e371-982c-47a2-a241-ac64d078577b" />
 
 
