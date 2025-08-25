@@ -2,6 +2,14 @@
 
 1. Finish major preprocessing, this includes scaling and/or transforming your data, imputing your data, encoding your data, feature expansion, Feature expansion (example is taking features and generating new features by transforming via polynomial, log multiplication of features).  (10 points)
 
+	Naive Bayes Training Report <br>
+	<img width="430" height="192" alt="image" src="https://github.com/user-attachments/assets/4903b2e5-6f63-4702-bc70-6b037855e032" />
+	<br>
+	Naive Testing Report <br>
+	<img width="434" height="137" alt="image" src="https://github.com/user-attachments/assets/8939a515-acd5-4749-9946-0d538196b4e7" />
+	<br>
+
+
 2. Train your first model and analyze your model's performance. Evaluate your model and compare training vs. test error. (10 points)
 When it comes down to accuracy both training and testing models came out to be around 65%. This is also the case for Precision, Recall, and F1 score for each accident severity class. In addition, both models also agree that the scores for class 1 and 2 are both significantly lower than class. This could be due to the fact that we have a lot more samples that have a class 3 accident severity. This also means we are experiencing a lot more false positives for class 1 and 2 and missing a lot of true positives. 
 	
@@ -15,6 +23,8 @@ Our model lies on the left end of the fitting curve, based on how low our train 
 4. Conclusion section: What is the conclusion of your 1st model? What can be done to possibly improve it? (5 points)
 		Our Naive Bayes has an accuracy of around 65% which means it does better than guessing what the accident severity is. Some ways that we can improve it is by conducting hyperparameter tuning specifically on our alpha and var_smoothing.  We can also drop more features. Another way that we can improve is by building our own Naive Bayes model from scratch that uses both numerical and categorical data. Analyzing our classification report, we see that we are getting the good accuracy for accident severity 3, but low and very low accuracies for accident severity 2 and 1. Taking a look at our data, around 85% of our data was accident severity 3 which could be a cause of the low accuracies for accident severity 2 and 1. This means we could improve it by using SMOTE or ADASYN oversampling to get more data for accident severity 2 and 1 and improve its accuracy and the accuracy of the whole model.
 
+5. Update your README.md to include your new work and updates you have all added. Make sure to upload all code and notebooks. Provide links in your README.md <br>
+	All our code and images/graphs are from here with the Milestone 3 things closer to the bottom. https://github.com/ZackRoland/CSE151A-Project-1/blob/Milestone3/model_exploration_sdsc.ipynb
 
 ## Dataset
 [Link to dataset](https://www.kaggle.com/datasets/daveianhickey/2000-16-traffic-flow-england-scotland-wales?resource=download&select=accidents_2005_to_2007.cs)!
