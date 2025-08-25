@@ -1,7 +1,7 @@
 # CSE151A-Project-1
 
 1. Finish major preprocessing, this includes scaling and/or transforming your data, imputing your data, encoding your data, feature expansion, Feature expansion (example is taking features and generating new features by transforming via polynomial, log multiplication of features).  (10 points)
-
+	Main parts of preprocessing we added was we imputed and replaced a couple more of our features that had no value into 'None', which meant that things didn't have any special conditions. We did one hot encoding for most of our categorical values. We used a Naive Bayes model to try to predict the Accident Severity of a crash. Our grounds truths and predictions are 3 for a minor accident, 2 for a serious accident, and 1 for a fatal accident.
 	Naive Bayes Training Report <br>
 	<img width="430" height="192" alt="image" src="https://github.com/user-attachments/assets/4903b2e5-6f63-4702-bc70-6b037855e032" />
 	<br>
