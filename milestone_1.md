@@ -1,1 +1,5 @@
-
+# Abstract
+  Road traffic injuries remain a leading public-health concern in the UK. We aim to build a machine learning model that can predict accident severity using the 2005–2007, 2009-2011, and 2012-2014 data of the England–Scotland–Wales road collisions dataset. For preprocessing, we will utilize heatmaps to analyze our features, remove unwanted features, drop missing data, and categorize analog data. We plan to model one of four classifiers: Naive Bayes, linear SVM, decision trees, and k-nearest neighbors. We also plan on training our model with 75% of our data and then testing with the remaining 25%. We will use confusion matrices to analyze our results on precision, recall, accuracy, and F1 scores. 
+  Our model uses parameters such as; speed limit, road type, junction detail/control, light and weather conditions, urban/rural setting, and number of vehicles as possible predictors. We hypothesize that with higher speed limits, complex junction layouts, poor lighting/weather conditions, the  accident severity risk will increase and as such will infer a need for better junction design, speed management, and visibility improvements.
+# Dataset
+https://www.kaggle.com/datasets/daveianhickey/2000-16-traffic-flow-england-scotland-wales?resource=download&select=accidents_2005_to_2007.csv
