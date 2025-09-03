@@ -15,7 +15,7 @@
 [Corresponding Code](milestone_3.ipynb)
 
 ## Final Milestone:
-### 1-3 Summary of Milestone 3
+### 1-3 Summary of Final Milestone
 [Final Milestone File](final_milestone.md)<br>
 [Corresponding Code](final_milestone.ipynb)
 
