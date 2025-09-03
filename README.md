@@ -2,8 +2,8 @@
 ## Introduction
 ## Milestone 1:
 ### 1-3 Summary of Milestone 1
-Link to Milestone 1 ReadMe
-Link to Milestone 1 Code
+[Milestone 1](milestone_1.md)
+
 ## Milestone 2:
 ### 1-3 Summary of Milestone 2
 Link to Milestone 2 ReadMe
