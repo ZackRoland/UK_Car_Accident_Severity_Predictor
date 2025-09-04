@@ -97,25 +97,25 @@ The most accidents happen when the road is dry only to be followed by wet/damp r
 ### Results: 
 Naive Bayes:
   - For our Gaussian Naive Bayes Model we had a training test error of 0.652 and a testing error of 0.650.
- Naive Bayes Training Report <br>
+Naive Bayes Training Report <br>
 	<img width="430" height="192" alt="image" src="https://github.com/user-attachments/assets/4903b2e5-6f63-4702-bc70-6b037855e032" />
 	<br>
-	Naive Testing Report <br>
+Naive Testing Report <br>
 	<img width="434" height="137" alt="image" src="https://github.com/user-attachments/assets/8939a515-acd5-4749-9946-0d538196b4e7" />
 	<br>
   - With the relatively lower accuracy and very close testing and training error, we felt like our model was underfitting. Varying our hyperparameter like the variance smoothing rate showed us that increasing our smoothing rate allowed use to incrementally get better accuracies.
-<img width="1109" height="660" alt="image" src="https://github.com/user-attachments/assets/fcacf9ac-e79d-4c61-b46c-e4ac05461ca2" />
-<img width="1092" height="679" alt="image" src="https://github.com/user-attachments/assets/1be80902-a884-43ca-b1df-f843708c8ecc" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/fcacf9ac-e79d-4c61-b46c-e4ac05461ca2" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/1be80902-a884-43ca-b1df-f843708c8ecc" />
 
 PCA: 
 Using PCA with KMeans, we observed that inertia decreased steadily as K increased, showing tighter clusters, with minimal differences between train and test sets beyond K=10. 
 
-<img width="389" height="289" alt="Image" src="https://github.com/user-attachments/assets/7904e396-a4c6-410b-a7d3-62f12e48eda6" />
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/7904e396-a4c6-410b-a7d3-62f12e48eda6" />
 
 Silhouette scores generally ranged from 0.45–0.55, except for a sharp dip at K=6 and K=7 (down to 0.39), indicating reduced cluster separation in those cases. The near-identical curves for train and test demonstrate that our results are reproducible and consistent across datasets.
 
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/65b49e6e-a02d-414c-a7f9-6a3857765682" />
 
-<img width="389" height="289" alt="Image" src="https://github.com/user-attachments/assets/65b49e6e-a02d-414c-a7f9-6a3857765682" />
 ### Discussion: 
 
 When we first began this project we didn’t have much of an idea of what we wanted to do and were having a hard time trying to find a dataset that met the requirements. We eventually settled on traffic accidents and tried to predict their severity. Looking back at it now we all believe we should have spent more time trying to find a dataset that would have excited us more as it would have made us be more creative in the models that we have to choose. When we decided to explore further into our numeric and categorical data we noticed for the numerical data that most of the data was weakly correlated with the target column. For our categorical data we noticed that there was a massive skew in our dataset favoring one type of value more than another .When it came time to  preprocess our data we were initially surprised by how much of our data was uncorrelated with itself so the only logical explanation was to find the ones that would help us achieve our goals and get rid of the rest. Looking back at it now we were thinking rather than get rid of a lot of features we could have applied some sort of transformation function and see if that made some of our data more associated with itself. It could have also improved our accuracy. When it came time to choose our first model we decided to go with Naive Bayes  because we weren’t really ready for decision trees yet by the time our milestone was due.  KNN gave us the best accuracy but it was computationally exhaustive and Naive Bayes is insanely fast in comparison. Without any discretization it gives us similar results as a KNN so we stuck with it. When it came to the final model we decided to go with PCA + K means Clustering. We decided to go with PCA because we wanted to see if we could decrease the dimensionality of models to reach the goal of making better and faster predictions. We combined this with K-means Clustering because we thought it would be the best at trying to predict Accident Severity given our dimensionally reduced data. Overall we believe that this project meets all the requirements,  however we do wish we could have done things differently to make this a more fruitful venture. 
