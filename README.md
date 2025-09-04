@@ -10,9 +10,10 @@
 [Corresponding Code](milestone_2.ipynb)
 
 ## Milestone 3:
-### In this milestone, we finished any major preprocessing of our data. We then trained our first supervised learning model through Naieve Bayes and evaulated its preformance. Finally we compared our training and test error to determine if we was overfitting and discussed next steps.
-[Milestone 3 File](milestone_3.md)<br>
-[Corresponding Code](milestone_3.ipynb)
+### [Milestone 3 File](milestone_3.md)<br>
+### [Corresponding Code](milestone_3.ipynb)
+In this milestone, we finished any major preprocessing of our data. We then trained our first supervised learning model through Naieve Bayes and evaulated its preformance. Finally we compared our training and test error to determine if we was overfitting and discussed next steps.
+
 
 ## Final Milestone:
 ### 1-3 Summary of Final Milestone
