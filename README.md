@@ -108,7 +108,7 @@ If we could do this differently, we would redesign our approach around other uns
 By focusing on these alternatives, we could take better advantage of the features we have. Instead of forcing classification, our group would treat the problem as one of exploratory clustering, supported by evaluation metrics like silhouette score and Davies–Bouldin index.
 Overall, this project showed us that method choice has to align with the dataset. In the future, we would place more emphasis on clustering methods like Hierarchical and Spectral Clustering, which are better suited to our data than classification or PCA + K-Means.
 ### Figures:
-#### Figure 1:
+#### <u>Figure 1:</u>
 <img width="1746" height="1542" alt="Untitled" src="https://github.com/user-attachments/assets/23b388ba-20e2-431e-837d-e1e37aeb1c3d" />
 ### Statement of Collaboration:
 - Zack Roland: Leader/Coder/Writer/Researcher: Data preprocessing and picking out features. A lot of writing throughout various parts of all the milestones.  Testing for model 2.
