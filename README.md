@@ -14,14 +14,14 @@ Throughout the milestones, we follow a structured ML pipeline that starts with d
 
 
 ## Milestone 3:
-#### In this milestone, we finished any major preprocessing of our data. We then trained our first supervised learning model through Naieve Bayes and evaulated its preformance. Finally we compared our training and test error to determine if we was overfitting and discussed next steps.
+#### In this milestone, we finished any major preprocessing of our data. We then trained our first supervised learning model through Naieve Bayes and evaulated its preformance. Finally we compared our training and test error to determine if we were overfitting and discussed next steps.
 [Milestone 3 File](milestone_3.md)<br>
 [Corresponding Code](milestone_3.ipynb)
 
 
 
 ## Final Milestone:
-#### 1-3 Summary of Final Milestone
+#### In this milestione, we proceeded with the training of our unsupervised model through PCA and evaluated its preformance. We compared our training and test error to determine if were overfitting. We conclude and discuss implications regarding False Positives and Negatives 
 [Final Milestone File](final_milestone.md)<br>
 [Corresponding Code](final_milestone.ipynb)
 
