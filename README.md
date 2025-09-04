@@ -95,7 +95,7 @@ The most accidents happen when the road is dry only to be followed by wet/damp r
 - Model 2: PCA + KMeans:
   - Our second model was using PCA first to compress our dimensions to 2 dimensions and then used KMeans to try to find clusters and learn about different subsets of our data. Our preprocessed data had 10+ features, which would’ve taken longer to run KMeans on and would’ve made visualizing these clusters basically impossible. By using PCA to compress it down to 2 principal components, we were able to speed up the KMeans and actually plot the clusters that we found.
 ### Results: 
-Naive Bayes:
+<ins>Naive Bayes:</ins>
   - For our Gaussian Naive Bayes Model we had a training test error of 0.652 and a testing error of 0.650.
 Naive Bayes Training Report <br>
 	<img width="430" height="192" alt="image" src="https://github.com/user-attachments/assets/4903b2e5-6f63-4702-bc70-6b037855e032" />
@@ -107,7 +107,7 @@ Naive Testing Report <br>
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/fcacf9ac-e79d-4c61-b46c-e4ac05461ca2" />
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/1be80902-a884-43ca-b1df-f843708c8ecc" />
 
-PCA: 
+<ins>PCA:</ins>
 Using PCA with KMeans, we observed that inertia decreased steadily as K increased, showing tighter clusters, with minimal differences between train and test sets beyond K=10. 
 
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/7904e396-a4c6-410b-a7d3-62f12e48eda6" />
