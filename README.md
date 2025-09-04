@@ -89,15 +89,24 @@ The most accidents happen when the road is dry only to be followed by wet/damp r
   - If NaN values are present, we have to figure out what these NaN values mean in the context of our data. If the NaN indicates a missing value, then we have to find what is represented by it and encode that. For example, 'Junction_Control' had over 40% of its value, and we realized that NaN in this case just meant there was no special junction, and so we replaced all NaN for ‘Junction Control’ with ‘No junction’. If the quantity of the NaN in relation to the amount of total data present is sufficiently small enough, then we can just drop all rows that contain NaN values for that feature. An example of this was with our 'Pedestrian_Crossing-Human_Control'column, which we found to have 17 NaN values.
   - To make sure that the scale of our features wasn’t affecting the model, we standardized all of our numerical values and to handle our categorical data, we one-hot encoded them to allow our models to interpret our categorical features.
   - Since our 'Time' column was in an undesirable format (Hour:Minute) we split the values just to represent the hour to make it easier for whatever categorial analysis we decide to do with that [Corresponding Code](milestone_2.ipynb)
--Model 1: Naive Bayes:
- - For our supervised model, we implemented a Naive Bayes classifier to predict accident severity . After one-hot-encoding our categorical features, we used the preprocessed data above and trained our model on a 80/20 test-train split. Since we had numerical values, we ran it through a Gaussian Naive Bayes which doesn’t require standardization of our numerical features (but we did it anyway for good measure). This provided us with a good baseline of a computationally efficient and easily interpretable model. Though we had reasonable accuracy, it was unable to capture a lot of the complexities of the data and as such highlighted the importance of our next unsupervised learning model PCA.
+
+- Model 1: Naive Bayes:
+  - For our supervised model, we implemented a Naive Bayes classifier to predict accident severity . After one-hot-encoding our categorical features, we used the preprocessed data above and trained our model on a 80/20 test-train split. Since we had numerical values, we ran it through a Gaussian Naive Bayes which doesn’t require standardization of our numerical features (but we did it anyway for good measure). This provided us with a good baseline of a computationally efficient and easily interpretable model. Though we had reasonable accuracy, it was unable to capture a lot of the complexities of the data and as such highlighted the importance of our next unsupervised learning model PCA.
 - Model 2: PCA + KMeans:
   - Our second model was using PCA first to compress our dimensions to 2 dimensions and then used KMeans to try to find clusters and learn about different subsets of our data. Our preprocessed data had 10+ features, which would’ve taken longer to run KMeans on and would’ve made visualizing these clusters basically impossible. By using PCA to compress it down to 2 principal components, we were able to speed up the KMeans and actually plot the clusters that we found.
 ### Results: 
 - Naive Bayes
   - For our Gaussian Naive Bayes Model we had a training test error of 0.652 and a testing error of 0.650.
-  ***Add Image of Training Naive Bayes*** ***Add Image of Testing Naive Bayes***
-  - With the relatively lower accuracy and very close testing and training error, we felt like our model was underfitting. Varying our hyperparameter like the variance smoothing rate showed us that increasing our smoothing rate allowed use to incrementally get better accuracies. ***Add Train/test images** **Add Train/Test accuracy image***
+ Naive Bayes Training Report <br>
+	<img width="430" height="192" alt="image" src="https://github.com/user-attachments/assets/4903b2e5-6f63-4702-bc70-6b037855e032" />
+	<br>
+	Naive Testing Report <br>
+	<img width="434" height="137" alt="image" src="https://github.com/user-attachments/assets/8939a515-acd5-4749-9946-0d538196b4e7" />
+	<br>
+  - With the relatively lower accuracy and very close testing and training error, we felt like our model was underfitting. Varying our hyperparameter like the variance smoothing rate showed us that increasing our smoothing rate allowed use to incrementally get better accuracies.
+<img width="1109" height="660" alt="image" src="https://github.com/user-attachments/assets/fcacf9ac-e79d-4c61-b46c-e4ac05461ca2" />
+<img width="1092" height="679" alt="image" src="https://github.com/user-attachments/assets/1be80902-a884-43ca-b1df-f843708c8ecc" />
+
 - ***Add PCA Curve***
 ### Discussion: 
 
