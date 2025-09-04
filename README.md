@@ -28,7 +28,7 @@ Throughout the milestones, we follow a structured ML pipeline that starts with d
 ## Final Report
 ### Dataset
 [Link to dataset](https://www.kaggle.com/datasets/daveianhickey/2000-16-traffic-flow-england-scotland-wales?resource=download&select=accidents_2005_to_2007.cs)!
-#Variables 
+### Variables 
 | **Feature**                            | **Short Description**                                                                                     | **Variable**                                                                                      |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | **Accident_Index**                     | A unique identifier for each accident. Dropped because it is just an ID and is not informative for modeling | Categorical: 200XXXXXXXXXX or 201XXXXXXXXXX                                                        |
