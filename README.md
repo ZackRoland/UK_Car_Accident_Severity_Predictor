@@ -103,7 +103,7 @@ The most accidents happen when the road is dry only to be followed by wet/damp r
 
 Fitting Curve:
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/fcacf9ac-e79d-4c61-b46c-e4ac05461ca2" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/fcacf9ac-e79d-4c61-b46c-e4ac05461ca2" />
 
 <ins>Naive Bayes:</ins>
   - For our Gaussian Naive Bayes Model we had a training test error of 0.652 and a testing error of 0.650.
@@ -115,17 +115,17 @@ Naive Testing Report <br>
 	<br>
   - With the relatively lower accuracy and very close testing and training error, we felt like our model was underfitting. Varying our hyperparameter like the variance smoothing rate showed us that increasing our smoothing rate allowed use to incrementally get better accuracies.
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/1be80902-a884-43ca-b1df-f843708c8ecc" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/1be80902-a884-43ca-b1df-f843708c8ecc" />
 
 <ins>PCA:</ins>
 
 Using PCA with KMeans, we observed that inertia decreased steadily as K increased, showing tighter clusters, with minimal differences between train and test sets beyond K=10. 
 
-<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/7904e396-a4c6-410b-a7d3-62f12e48eda6" />
+<img width="700" height="500" alt="Image" src="https://github.com/user-attachments/assets/7904e396-a4c6-410b-a7d3-62f12e48eda6" />
 
 Silhouette scores generally ranged from 0.45–0.55, except for a sharp dip at K=6 and K=7 (down to 0.39), indicating reduced cluster separation in those cases. The near-identical curves for train and test demonstrate that our results are reproducible and consistent across datasets.
 
-<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/65b49e6e-a02d-414c-a7f9-6a3857765682" />
+<img width="700" height="500" alt="Image" src="https://github.com/user-attachments/assets/65b49e6e-a02d-414c-a7f9-6a3857765682" />
 
 ### Discussion: 
 
