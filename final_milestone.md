@@ -6,6 +6,8 @@ Figure 1: As K increases, the inertia of the test and train sets decrease indica
 
 Figure 2: The scores typically range from 0.45-0.55 for all K except k=6,7 where there is a major dip down to 0.39. This score describes the stability of clusterings so that significant dip means that in that range the clusters are less separated and contain some overlap. The curves for our test and train overlap almost exactly demonstrating that we have reproducibility with our results.
 
+<img width="389" height="289" alt="Image" src="https://github.com/user-attachments/assets/65b49e6e-a02d-414c-a7f9-6a3857765682" />
+
 ## Fitting Analysis
 3: Answer the questions: Where does your model fit in the fitting graph? and What are the next models you are thinking of and why? (3 points)
 
