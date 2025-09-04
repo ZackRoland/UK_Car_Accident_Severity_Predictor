@@ -101,7 +101,7 @@ The most accidents happen when the road is dry only to be followed by wet/damp r
   - Our second model was using PCA first to compress our dimensions to 2 dimensions and then used KMeans to try to find clusters and learn about different subsets of our data. Our preprocessed data had 10+ features, which would’ve taken longer to run KMeans on and would’ve made visualizing these clusters basically impossible. By using PCA to compress it down to 2 principal components, we were able to speed up the KMeans and actually plot the clusters that we found.
 ### Results: 
 
-<ins>The Fitting Curve</ins>
+Fitting Curve:
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/fcacf9ac-e79d-4c61-b46c-e4ac05461ca2" />
 
