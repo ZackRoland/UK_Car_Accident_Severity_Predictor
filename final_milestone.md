@@ -2,6 +2,7 @@
 ## Model Evaluation:
 Figure 1: As K increases, the inertia of the test and train sets decrease indicating tightness of clusters. The train is consistently higher than the test inertia but the difference between test and train from 10 is very minimal in comparison to the 2 clusters.
 
+<img width="389" height="289" alt="Image" src="https://github.com/user-attachments/assets/7904e396-a4c6-410b-a7d3-62f12e48eda6" />
 
 Figure 2: The scores typically range from 0.45-0.55 for all K except k=6,7 where there is a major dip down to 0.39. This score describes the stability of clusterings so that significant dip means that in that range the clusters are less separated and contain some overlap. The curves for our test and train overlap almost exactly demonstrating that we have reproducibility with our results.
 
