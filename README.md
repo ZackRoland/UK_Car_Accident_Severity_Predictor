@@ -1,5 +1,8 @@
 # UK Car Crash Severity Predictor
-## Introduction
+## Introduction:
+This project explores machine learning approaches to predicting the severity of car crashes in the United Kingdom using a large-scale accident dataset. Road safety is a critical public concern, and by analyzing key factors such as road type, weather, speed limits, and time of day, we aim to uncover patterns that contribute to different crash outcomes. Our objective is to build a robust predictive model that can classify crash severity levels, offering insights into which features play the most significant role in accident outcomes.
+
+Throughout the milestones, we follow a structured machine learning pipeline: beginning with dataset exploration and preprocessing, moving into feature engineering and visualization, and finally applying supervised learning models to evaluate performance. By documenting each stage of this process, we demonstrate not only our results, but also our reasoning and methodology for tackling a real-world predictive modeling problem.
 ## Milestone 1:
 #### In this milestone we indentfied an adequate data set for our goal we drafted an Abstract to layout our plans for building our model
 [Milestone 1](milestone_1.md)
