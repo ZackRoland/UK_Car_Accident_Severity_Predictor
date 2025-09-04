@@ -11,7 +11,10 @@ From figure 1 we see as K increases, the inertia of the test and train sets decr
 <img width="389" height="289" alt="Image" src="https://github.com/user-attachments/assets/65b49e6e-a02d-414c-a7f9-6a3857765682" />
 
 ## Fitting Analysis
+<ins>Figure 3:</ins> The Fitting Curve
+
 <img width="499" height="377" alt="Image" src="https://github.com/user-attachments/assets/5157cfd3-28ae-47ce-b4a8-5eaaa3b0741e" />
+
 Our model lies within the ideal range of model complexity as the silhouette isn’t too low so we're not in the underfit region but not too right to where added complexity is hurting us. Our next model we wanted to try out was hierarchical since it will make the outliers as its its own clusters and islands and make it so that the clusters make more sense, the thing is it is too memory intensive (around 8 terabytes) so we weren’t able to try that this go around.
 ## Conclusion
 5. Conclusion section: What is the conclusion of your 2nd model? What can be done to possibly improve it? Note: The conclusion section should be it's own independent section. i.e. Methods: will have models 1 and 2 methods, Conclusion: will have models 1 and 2 results and discussion. (3 points)
