@@ -67,18 +67,23 @@ Throughout the milestones, we follow a structured ML pipeline that starts with d
 Road traffic injuries are one of the leading public-health concerns in the UK, therefore we chose this as our topic of interest so that we could develop a model that could potentially have a significant positive impact on preventing tragedy from occurring. Subsequently, we built a machine learning model that can predict accident severity using the 2005–2014 data of the England–Scotland–Wales road collisions dataset. The reasoning behind predicting on accident severity is that if we were able to deduce the severity of an accident based on a number of different features, this would allow the optimal delegation of emergency resources. This could not only provide life saving measures but also provide cost effective solutions. For our implementation we ended up running Naive Bayes as a supervised learning approach and PCA for unsupervised learning. Naive Bayes was used to directly predict the accident severity using our labeled data while our PCA told us the underlying structure of our data and understood patterns in our features that correlate toward accident severity. Through the combination of both approaches we got a holistic story of our data and valuable insight into how to optimize our accident severity prediction.
 ### Methods:
  Our initial dataset had over a million datapoints with 33 features so our first step was to get a comprehensive understanding of each feature of our dataset. This involved constantly going back and forth between the notebooks and the original documentation to find the definitions of each feature. The next step was to understand how our features interacted with each other especially with our target column (Accident Severity). To do this we decided to create a correlation matrix represented by to see which features would be the most helpful to predict Accident Severity.
+
 <img width="1746" height="1542" alt="Untitled" src="https://github.com/user-attachments/assets/23b388ba-20e2-431e-837d-e1e37aeb1c3d" />
 
   Some interesting things to notice just from a quick initial glance is that most of the boxes on the matrix are grey in the sense that most things have very little correlation with each other. The factors that most influence Accident Severity which is what we are most interested in are;Number of Casualties, Speed Limit, Urban or Rural Area, Junction Control, Daylight and Police Presence. Seems the features with the most solid coloring like Junction_Control_No_Junction and Junction_Control_Uncontrolled could be very similar and possibly duplicate which makes sense just off the name alone so one of those could be dropped. We decided to dive deeper and created a correlation matrix  just on the numerical columns. 
+
 <img width="673" height="555" alt="image" src="https://github.com/user-attachments/assets/c0663964-5e58-46ca-ab54-005c785388d2" />
 
   We can see that out of most of the Numeric columns the one that is going to be the most helpful is number of vehicles because out of all the other columns excluding Accident Severity itself it has the highest coefficient. Something else that is also interesting is that Urban_or_Rural_Area is closely correlated to Speed Limit. Now let's move into some categorical data. 
+
 <img width="673" height="555" alt="image" src="https://github.com/user-attachments/assets/c0663964-5e58-46ca-ab54-005c785388d2" />
 
 Looking at the graph we can see that the most accidents had an accident severity of 3 at a Giveaway/uncontrolled junction. We can also see that when there is an authorized personal present there was the least amount of accidents. We can also conclude that the least frequently occurring severity type is 1. Some more important things to note is how some of our data is distributed. 
+
 <img width="904" height="574" alt="image" src="https://github.com/user-attachments/assets/3eb3b24d-0284-48f0-a23f-1e080b622973" />
 
 The most accidents happened when there was little to no wind only to be followed by rain present. We can also conclude that when the weather conditions get severer the number of accidents tends to decline. 
+
 <img width="926" height="620" alt="image" src="https://github.com/user-attachments/assets/47f4e371-982c-47a2-a241-ac64d078577b" /> 
 
 The most accidents happen when the road is dry only to be followed by wet/damp roads. We can also see that the amount of dry accidents exceeds the amount of the sum of all other conditions.
