@@ -109,7 +109,7 @@ Overall, this project showed us that method choice has to align with the dataset
 
 ### Statement of Collaboration:
 - Zack Roland: Leader/Coder/Writer/Researcher: Led team efforts and project focus/ Conducted research on the data set and led initial preprocessing efforts and choosing our features. Contributed in the drafting of various parts of all the milestones. Aided in training and test of the models. Presentation and cleanup  of the github
-- Sri Talari: Coder/Writer: Secured the initial data set. Some of the preprocessing and data exploration as well as worked on the final report. 
+- Sri Talari: Coder/Writer: Secured the initial data set. Worked on some of the initial models as well as the preprocessing, data exploration, and the final report. 
 - Gui Yang: Lead Dev/Coder/Writer: Organized the readme’s for the various milestones. Helped with preprocessing of the data and coded most of the initial versions of the models and their plots/graphs. Wrote and contributed to the writeups pertaining to the preprocessing and models. 
 - Hyungjun Doh: Project Manager/Coder/Writer: Facilitated team progress through organization and helped with any set up issues the team faced with environment setup. Contributed to our model 1 training code and writeups.
 
